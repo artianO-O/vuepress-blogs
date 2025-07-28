@@ -11,7 +11,7 @@ export default defineUserConfig({
   // 自定义域名配置
   // 如果使用自定义域名，设置为 '/'
   // 如果使用 GitHub Pages 默认域名，设置为 '/vuepress-blogs/'
-  base: "/",
+  base: "/interview/",
 
   theme: defaultTheme({
     // 导航栏
