@@ -8,9 +8,10 @@ export default defineUserConfig({
   title: "我的博客",
   description: "VuePress博客",
 
-  // 如果您的仓库名不是 vuepress-blogs，请修改这里的base路径
-  // 例如：如果仓库名是 my-blog，则设置为 '/my-blog/'
-  base: "/vuepress-blogs/",
+  // 自定义域名配置
+  // 如果使用自定义域名，设置为 '/'
+  // 如果使用 GitHub Pages 默认域名，设置为 '/vuepress-blogs/'
+  base: "/",
 
   theme: defaultTheme({
     // 导航栏
